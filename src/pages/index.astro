@@ -2,17 +2,17 @@
 import Layout from "../layouts/Layout.astro";
 import LandingHeader from "../components/LandingHeader.astro";
 import HeroSection from "../components/HeroSection.astro";
-import ChargeSection from "../components/ChargeSection.astro";
+import ModelY from "../components/ModelY.astro";
 ---
 
 <Layout title="Electric Cars, Solar & Clean Energy | Tesla">
   <LandingHeader />
-  <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth">
+  <main class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
     <div class="snap-center">
       <HeroSection />
     </div>
     <div class="snap-center">
-      <ChargeSection />
+      <ModelY />
     </div>
   </main>
 </Layout>
